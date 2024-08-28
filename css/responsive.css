@@ -1,0 +1,350 @@
+@media screen and (max-width:1400px) {
+    .container{
+        max-width: 1140px;
+    }
+
+    .logoipsum-slider figure {
+        padding: 30px 18px;
+    }
+
+    .team-img {
+        min-width: 277px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+
+    .team-img {
+        min-width: 230px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        max-width: 925px;
+    }
+
+    .feature .flex {
+        flex-wrap: wrap;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .header-card {
+        width: 50%;
+    }
+
+    .header-card:nth-child(3),
+    .header-card:nth-child(4){
+        margin: 0;
+    }
+
+    .feature h4 {
+        width: 100%;
+        margin: 19px 0 15px 0;
+    }
+
+
+    footer .footer-hr .flex {
+        rotate: -360deg;
+        width: 100%;
+    }
+
+    footer .footer-hr h3 {
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    footer .footer-hr p{
+        padding: 0;
+    }
+
+    footer form {
+        display: flex;
+        flex-wrap: nowrap;
+        border-radius: 10px;
+    }
+
+    footer form input {
+        margin-left: 10px;
+    }
+
+    .features .flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-card {
+        min-width: 320px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 757px;
+    }
+
+    .hero-social-icon {
+        position: relative;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+
+    .hero-social-icon hr {
+        display: none;
+    }
+
+    .team-img {
+        min-width: 232px;
+        object-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .header-card {
+        width: 100%;
+        margin: 0;
+    }
+
+    .gallery .w-33,
+    .gallery .w-66 {
+        width: 100%;
+    }
+
+    .porto-center {
+        width: 100% !important;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .porto-center .w-50,
+    .porto-center .w-100,
+    .service-data .w-66,
+    .service-data .w-33,
+    .exp-center .w-33,
+    .exp-center .w-66,
+    .blog-center .w-33,
+    .blog-center .w-66,
+    .team-center .w-66,
+    .team-center.w-33 {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+    .btn_hover2{
+        margin-top: 10px;
+    }
+
+    .team-center {
+        flex-wrap: wrap !important;
+    }
+
+    .exp-center p {
+        padding: 0;
+    }
+
+    .ex-card .flex {
+        padding: 15px 20px;
+    }
+
+    .blog-center {
+        flex-wrap: wrap;
+    }
+
+    .blog-card {
+        flex: none !important;
+        width: 100%;
+    }
+
+    .porto-center {
+        margin-top: 1rem;
+    }
+
+    .portfolio-1 p {
+        padding: 0;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .work-para {
+        padding: 0 10px;
+    }
+
+    .work-line {
+        background-image: none;
+    }
+
+    .work-line div {
+        position: relative;
+        padding: 0;
+        text-align: center;
+    }
+
+    .work-line h4 {
+        padding: 0 17px;
+    }
+
+    .work-line div:nth-child(1) {
+        top: 20px;
+        left: 0;
+    }
+
+    .work-line div:nth-child(2) {
+        top: 20px;
+        left: 20px;
+    }
+
+    .work-line div:nth-child(3) {
+        left: 0;
+        top: 20px;
+    }
+
+    .work-line div:nth-child(4) {
+        left: 0;
+        top: 20px;
+    }
+
+    .work-line {
+        margin: 25px 25px 53px 25px;
+    }
+
+    .work-line div {
+        width: 170px !important;
+        min-height: 170px !important;
+    }
+
+    .blog p {
+        padding: 0;
+    }
+
+    .footer-menu .flex-start{
+        flex-wrap: wrap;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .footer-center .w-33,
+    .footer-center .w-16,
+    .footer-center .w-16,
+     .footer-center .w-33{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .footer-menu p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .footer-menu a {
+        text-align: center;
+    }
+
+    .footer-menu h4 {
+        text-align: center;
+    }
+
+    .team-img {
+        width: 100px;
+    }
+
+    footer .footer-hr .flex {
+        rotate: -360deg;
+        width: 100%;
+    }
+
+    footer .footer-hr h3 {
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    footer .footer-hr p{
+        padding: 0;
+    }
+
+    footer form {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        border-radius: 10px;
+    }
+
+    footer form input {
+        margin-left: 10px;
+    }
+
+    .features .flex {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* .header-card div {
+        max-width: 280px !important;
+    } */
+
+    .experience img {
+        width: 100%;
+    }
+
+    .team h2 {
+        padding: 0 12px 0 0;
+    }
+
+    .team p {
+        padding: 0 12px 0 0;
+    }
+
+    .team .btn_hover2 {
+        width: max-content !important;
+    }
+
+    .work-hr {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .hero-social-icon {
+        flex-wrap: nowrap !important;
+    }
+
+    .nav-flex {
+        flex-wrap: nowrap !important;
+        padding-inline: 10px !important;
+    }
+
+    .navbar-logo {
+        padding: 0  !important;
+    }
+
+    .header-card {
+        min-width: 90% !important;
+    }
+
+    .about img {
+        width: 100% !important;
+    }
+
+    .about-hr {
+        display: none !important;
+    }
+}

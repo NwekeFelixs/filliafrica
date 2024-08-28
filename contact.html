@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filiiafrica - Contact</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/slick.min.css">
+    <link rel="stylesheet" href="./css/easy.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="site-wrapper">
+        <div class="header-index">
+            <!-- ============= HEADER SECTION 1.1 ============== -->
+            <header>
+                <nav class="container navbar">
+                    <div class="container-nav flex">
+                        <a href="/" class="navbar-logo">
+                            <img src="./Images/logo.png" alt="Filiiafrica">
+                        </a>
+                        <button class="navbar-toggler" type="button" onclick="openNav()">
+                            <span class="fa-solid fa-bars"></span>
+                        </button>
+
+                        <!-- ======= menu ============= -->
+
+                        <ul class="navbar-nav flex">
+                            <li><a href="index.html" class="nav-link">Home</a></li>
+                            <li><a href="about.html" class="nav-link">About</a></li>
+                            <li><a href="contact.html" class="nav-link">Contact</a></li>
+                            <li class="dropdown"> 
+                                <a href="" class="nav-link dropdown-toggle">Services <i class="fa-solid fa-caret-down"></i></a> 
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Design</a></li>
+                                    <li><a href="" class="dropdown-item">Development</a></li>
+                                    <li><a href="" class="dropdown-item">Branding</a></li>
+                                    <li><a href="" class="dropdown-item">UI/UX</a></li>
+                                    <li><a href="" class="dropdown-item">MARKETTING</a></li>
+                                    <li><a href="" class="dropdown-item">SEO</a></li>
+                                    <li><a href="" class="dropdown-item">Social Media</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"> 
+                                <a href="" class="nav-link dropdown-toggle">Pages <i class="fa-solid fa-caret-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Projects</a></li>
+                                    <li><a href="" class="dropdown-item">Team</a></li>
+                                    <li><a href="" class="dropdown-item">Testimonails</a></li>
+                                    <li><a href="faq.html" class="dropdown-item">FAQ</a></li>
+                                    <li><a href="" class="dropdown-item">Blog</a></li>
+                                    <li><a href="" class="dropdown-item">Privacy & Policy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                       
+                    </div>
+
+                    <div class="nav-right flex">
+                        <p><i class="fa-brands fa-whatsapp"></i> <span>+1 773 455 8909</span></p>
+
+                        <!-- header buttons  -->
+                        <i onclick="openRightBar()" class="fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+
+                <aside id="mySidepanel" class="sidepanel">
+                    <div class="sidebar flex">
+                        <a href="">
+                            <img src="./Images/logo.png" alt="logo">
+                        </a>
+
+                        <button type="button" class="closebtn btn_hover1" onclick="closeNav()">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+
+                    <ul>
+                        <!-- side menus -->
+                         <li><a href="index.html" class="nav-link active">Home</a></li>
+                         <li><a href="about.html" class="nav-link">About</a></li>
+                         <li><a href="contact.html" class="nav-link">Contact</a></li>
+                         <li  class="pages"><a href="#" class="nav-link">More</a></li>
+                         <li class="collapse-btn">
+                            <a href="#" class="nav-link plus_collapse" data-bs-toggle="collapse">
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+
+                           <div class="collapse" id="pages">
+                                <ul>
+                                    <li><a href="" class="nav-link">Design</a></li>
+                                     <li><a href="" class="nav-link">Development</a></li>
+                                     <li><a href="" class="nav-link">Branding</a></li>
+                                     <li><a href="" class="nav-link">UI/UX</a></li>
+                                     <li><a href="" class="nav-link">Marketting</a></li>
+                                     <li><a href="" class="nav-link">SEO</a></li>
+                                     <li><a href="" class="nav-link">Social Media</a></li>
+                                     <li><a href="" class="nav-link">Projects</a></li>
+                                     <li><a href="" class="nav-link">Team</a></li>
+                                     <li><a href="" class="nav-link">Testimonails</a></li>
+                                     <li><a href="" class="nav-link">FAQ</a></li>
+                                     <li><a href="" class="nav-link">Blog</a></li>
+                                     <li><a href="" class="nav-link">Privacy & Policy</a></li>
+                                     <li><a href="" class="nav-link">Our Team</a></li>
+                                </ul>
+                            </div>
+                         </li>
+                    </ul>
+                </aside>
+
+                <!-- ====== right sidebar ========= -->
+                 <section class="header-right-sidebar" id="right_side">
+                    <div class="flex flex-sb">
+                        <a href=""><img src="./Images/right-side-logo.png" alt="logo"></a>
+                        <button onclick="closeRightBar()" class="close_right fa-solid fa-xmark"></button>
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat rem sit tenetur nobis! Eum nulla sint voluptate officia in excepturi.
+                    </p>
+                    <a href="#" class="btn_hover1">Discover More</a>
+                    <hr>
+                    <h4>Connected Details</h4>
+                    <ul class="flex">
+                        <li>
+                            <a href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a href="" class="text-lowercase">+1 773 768 969</a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="" class="text-lowercase">Ourmail@gmail.com</a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa-solid fa-regular fa-clock"></i></a>
+                            <a href="">Office Hours: 8AM - 11PM MONDAY - SATURDAY</a>
+                        </li>
+                    </ul>
+
+                    <span class="flex">
+                        <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </span>
+                 </section>
+            </header>
+
+
+            <!-- ================================== HERO ========================= -->
+
+            <section class="hero">
+                <div class="container" data-aos="zoom-in">
+                    <div>
+                        <div class="hero-social-icon flex">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <hr>
+                        </div>
+
+                        <div class="center-data flex flex-col gap-1">
+                            <h1>GET IN TOUCH</h1>
+                            <h3>You Can Reach Out To Us</h3>
+                            <div class="center-btn flex gap-2 mt-1">
+                                <a href="/" class="btn_hover1">Contact US</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+          <!-- ====================================== Contact SECTION ================================ -->
+
+          <div class="section experience contact">
+            <div class="container">
+                <div class="row">
+                    <!-- ================ left section ============== -->
+                    <div class="left col">
+                        <div class="contact-title">
+                            <h2>Get In Touch</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas est aperiam quaerat necessitatibus consectetur rerum.
+                            </p>
+                        </div>
+    
+                        <div class="contact-info">
+                            <div class="icon-group">
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="details">
+                                    <span>Phone:</span>
+                                    <a href="tel:+1234567890">+1 234 567 890</a>
+                                </div>
+                            </div>
+    
+                            <div class="icon-group">
+                                <div class="icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="details">
+                                    <span>Email:</span>
+                                    <a href="mailto:contact@filiiafrica.com">Contact@filiiafrica.com</a>
+                                </div>
+                            </div>
+    
+                            <div class="icon-group">
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="details">
+                                    <span>Address:</span>
+                                    <span>Xyz IL, Chicago</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="social-media">
+                            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+    
+                    <!-- =========================== Right Section =============== -->
+    
+                    <div class="col right">
+                        <form action="#" class="message-form">
+                            <div class="input-group half-width">
+                                <input type="text" name="name" required>
+                                <label for="">Your Name</label>
+                            </div>
+    
+                            <div class="input-group half-width">
+                                <input type="email" name="email" required>
+                                <label for="">Your Email</label>
+                            </div>
+    
+                            <div class="input-group full-width">
+                                <input type="text" name="subject" required>
+                                <label for="">Subject</label>
+                            </div>
+    
+                            <div class="input-group full-width">
+                                <textarea name="message" id="" required></textarea>
+                                <label for="">Your Message</label>
+                            </div>
+    
+                            <div class="input-group full-width">
+                                <button class="btn_hover1">Send <i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- ===================================== TEAM MEMBERS ==================================== -->
+
+          <section class="team">
+            <div class="container">
+                <div class="team-center flex">
+                    <div class="w-66">
+                        <div class="flex gap-1">
+                            <hr class="team-hr1">
+                            <h5>OUR TEAM</h5>
+                        </div>
+                        <h2 class="mt-1">Meet Our Team Of Experts</h2>
+                        <p class="mt-1">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi ex dicta aliquid sapiente ratione quisquam velit, et at.
+                        </p>
+                    </div>
+
+                    <div class="w-33 mt-15 flex flex-end">
+                        <a href="" class="btn_hover2">ALL MEMBERS</a>
+                    </div>
+                </div>
+
+                <div class="team-slider flex mt-15">
+                    <div class="team-img">
+                        <img src="./Images/slider/team-slider1.png" alt="avatar">
+                        <div class="overlay">
+                            <div class="overlay_text">
+                                <h3>Felix Nweke</h3>
+                                <h4>Developer</h4>
+                                <div class="flex flex-center gap-1">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-img">
+                        <img src="./Images/slider/team-slider2.png" alt="avatar">
+                        <div class="overlay">
+                            <div class="overlay_text">
+                                <h3>Chisom Joy</h3>
+                                <h4>SEO Expert</h4>
+                                <div class="flex flex-center gap-1">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-img">
+                        <img src="./Images/slider/team-slider3.png" alt="avatar">
+                        <div class="overlay">
+                            <div class="overlay_text">
+                                <h3>Chidebere Emmanuel</h3>
+                                <h4>Animator</h4>
+                                <div class="flex flex-center gap-1">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-img">
+                        <img src="./Images/slider/team-slider4.png" alt="avatar">
+                        <div class="overlay">
+                            <div class="overlay_text">
+                                <h3>Ezinne Uche</h3>
+                                <h4>Designer</h4>
+                                <div class="flex flex-center gap-1">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-img">
+                        <img src="./Images/slider/team-slider1.png" alt="avatar">
+                        <div class="overlay">
+                            <div class="overlay_text">
+                                <h3>Felix Nweke</h3>
+                                <h4>Developer</h4>
+                                <div class="flex flex-center gap-1">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-img">
+                        <img src="./Images/slider/team-slider2.png" alt="avatar">
+                        <div class="overlay">
+                            <div class="overlay_text">
+                                <h3>Chisom Joy</h3>
+                                <h4>SEO Expert</h4>
+                                <div class="flex flex-center gap-1">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-img">
+                        <img src="./Images/slider/team-slider3.png" alt="avatar">
+                        <div class="overlay">
+                            <div class="overlay_text">
+                                <h3>Chidebere Emmanuel</h3>
+                                <h4>Animator</h4>
+                                <div class="flex flex-center gap-1">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-img">
+                        <img src="./Images/slider/team-slider4.png" alt="avatar">
+                        <div class="overlay">
+                            <div class="overlay_text">
+                                <h3>Ezinne Uche</h3>
+                                <h4>Designer</h4>
+                                <div class="flex flex-center gap-1">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-btn">
+                <div class="container flex flex-sb flex-wrap gap-2">
+                    <h4>Ask A Question To Our Amazing Team And Get A Quick Response</h4>
+                    <a href="#" class="btn_hover2">Contact Now</a>
+                </div>
+            </div>
+          </section>
+
+          <!-- =========================================== BLOG ============================================= -->
+
+          <section class="blog p-relative">
+            <div class="container">
+                <div class="blog-center flex">
+                    <div class="w-66" data-aos="zoom-in">
+                        <div class="flex gap-1">
+                            <hr class="blog-hr1">
+                            <h5>BLOGS</h5>
+                        </div>
+                        <h2 class="mt-1">Latest Blog Posts</h2>
+                        <p class="mt-1 mb-15">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reiciendis dolores, fuga sequi ducimus porro nobis eum laborum odit tempore.
+                        </p>
+                    </div>
+
+                    <div class="w-33 flex flex-end mt-15" data-aos="fade-up-right">
+                        <a href="" class="btn_hover2">Visit Blog</a>
+                    </div>
+                </div>
+
+                <div class="flex gap-1 mt-15 blog-cards">
+                    <div class="blog-card w-100" data-aos="fade-up-left">
+                        <img src="./Images/home/blog1.png" class="card-img-top" alt="blog img">
+                        <div class="card-body">
+                            <h4>10 Must-Know Digital Marketting Trends in 2024</h4>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card w-100" data-aos="fade-up">
+                        <img src="./Images/home/blog3.png" class="card-img-top" alt="blog img">
+                        <div class="card-body">
+                            <h4>Importance Of Responsive Web Design For Your Business</h4>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card w-100" data-aos="fade-up-right">
+                        <img src="./Images/home/blog2.png" class="card-img-top" alt="blog img">
+                        <div class="card-body">
+                            <h4>How To Create A Successful Social Media Strategy</h4>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- ================================ FOOTER ========================================== -->
+
+          <footer>
+            <div class="container">
+                <div class="footer-hr flex flex-col">
+                    <div class="flex gap-1">
+                        <hr>
+                        <h6>Newsletter</h6>
+                    </div>
+                    <h3>Join Our  Mailing List</h3>
+                    <p class="text-center">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis dicta nesciunt, aut ullam delectus cum.
+                    </p>
+                </div>
+    
+                <form action="#" id="footer-form" class="flex flex-sb gap-2">
+                    <div id="footer-message"></div>
+                    <input type="email" id="footer-email" name="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn_hover1">Get Started</button>
+                </form>
+            </div>
+    
+            <div class="footer-menu">
+                <div class="container">
+                    <div class="flex flex-start footer-center">
+                        <div class="w-33 flex flex-col gap-2 flex-start">
+                            <a href="/"><img src="./Images/logo.png" alt="logo"></a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, fugiat odio? Eaque earum iure, nihil veniam nesciunt placeat.
+                            </p>
+                            <span>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </span>
+                        </div>
+    
+                        <div class="w-16 mt-1">
+                            <h4>QUICK LINKS</h4>
+                            <ul class="flex flex-col flex-start gap-2">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Projects</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="w-16 mt-45 flex-end">
+                            <ul class="flex flex-col flex-start gap-2">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="w-33 mt-1 flex flex-col flex-start">
+                            <h4>Reach Us</h4>
+                            <ul class="flex flex-col flex-start gap-2">
+                                <li><a href="#"><i class="fa-solid fa-location-dot"></i> 123 Main St, City, State, Zip</a></li>
+                                <li><a href="#"><i class="fa-solid fa-phone"></i> +1 773 455 8909</a></li>
+                                <li><a href="#"><i class="fa-regular fa-envelope"></i> contact@Filiiafrica.com</a></li>
+                                <li><a href="#"><i class="fa-solid fa-clock"></i> Office Hours: 8AM - 7PM</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="copyright">
+                <div class="container flex flex-sb flex-wrap gap-2">
+                    <h6>Copyright &copy; <span id="year"></span> <a href="/" class="p-0">Filiiafrica</a> all rights reserved</h6>
+                </div>
+            </div>
+         </footer>
+    </div>
+
+    
+
+     <button id="backToTopBtn" class="btn_hover2"><i class="fa-solid fa-arrow-turn-up"></i></button>
+
+    <!-- ============================================== SCRIPTS ========================================================= -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 1250,
+            once: true,
+        });
+    </script>
+
+    <!-- jquery js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery min js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- slick carousel min js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
+
+    <!-- my script -->
+     <script src="./js/script.js"></script>
+</body>
+</html>
